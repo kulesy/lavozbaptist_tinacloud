@@ -8,7 +8,7 @@ var __export = (target, all) => {
     __defProp(target, name, { get: all[name], enumerable: true });
 };
 
-// components/mermaid-renderer.tsx
+// ../../projects/lavozbaptist_tinacloud/components/mermaid-renderer.tsx
 var mermaid_renderer_exports = {};
 __export(mermaid_renderer_exports, {
   default: () => MermaidElement
@@ -29,14 +29,14 @@ function MermaidElement({ value }) {
   return React.createElement("div", { contentEditable: false }, React.createElement("pre", { ref, suppressHydrationWarning: true }, value));
 }
 var init_mermaid_renderer = __esm({
-  "components/mermaid-renderer.tsx"() {
+  "../../projects/lavozbaptist_tinacloud/components/mermaid-renderer.tsx"() {
   }
 });
 
-// tina/config.tsx
+// ../../projects/lavozbaptist_tinacloud/tina/config.tsx
 import { defineConfig } from "tinacms";
 
-// next.config.ts
+// ../../projects/lavozbaptist_tinacloud/next.config.ts
 var nextConfig = {
   images: {
     remotePatterns: [
@@ -81,24 +81,24 @@ var nextConfig = {
 };
 var next_config_default = nextConfig;
 
-// tina/collection/message.tsx
+// ../../projects/lavozbaptist_tinacloud/tina/collection/message.tsx
 import React18 from "react";
 
-// components/blocks/section-video.tsx
+// ../../projects/lavozbaptist_tinacloud/components/blocks/section-video.tsx
 import * as React17 from "react";
 import dynamic from "next/dynamic";
 
-// components/layout/section.tsx
+// ../../projects/lavozbaptist_tinacloud/components/layout/section.tsx
 import React16 from "react";
 
-// lib/utils.ts
+// ../../projects/lavozbaptist_tinacloud/lib/utils.ts
 import { clsx as clsx8 } from "clsx";
 import { twMerge } from "tailwind-merge";
 
-// tina/__generated__/client.ts
+// ../../projects/lavozbaptist_tinacloud/tina/__generated__/client.ts
 import { createClient as createClient2 } from "tinacms/dist/client";
 
-// tina/__generated__/types.ts
+// ../../projects/lavozbaptist_tinacloud/tina/__generated__/types.ts
 import { createClient } from "tinacms/dist/client";
 function gql(strings, ...args) {
   let str = "";
@@ -1194,13 +1194,13 @@ var queries = (client2) => {
   return getSdk(requester);
 };
 
-// tina/__generated__/client.ts
-var client = createClient2({ cacheDir: "/Users/elikent/Projects/lavozbaptist_tinacloud/tina/__generated__/.cache/1755579608024", url: "https://content.tinajs.io/1.6/content/21b05b50-9e8a-4cb2-82a6-d37429d5375e/github/tinaCloud_live", token: "2eae713c34cfda47054f398afb54197e1834e9d3", queries });
+// ../../projects/lavozbaptist_tinacloud/tina/__generated__/client.ts
+var client = createClient2({ cacheDir: "/Users/elikent/projects/lavozbaptist_tinacloud/tina/__generated__/.cache/1755581303152", url: "https://content.tinajs.io/1.6/content/21b05b50-9e8a-4cb2-82a6-d37429d5375e/github/tinaCloud_live", token: "2eae713c34cfda47054f398afb54197e1834e9d3", queries });
 
-// components/layout/layout.tsx
+// ../../projects/lavozbaptist_tinacloud/components/layout/layout.tsx
 import React10 from "react";
 
-// components/layout/layout-context.tsx
+// ../../projects/lavozbaptist_tinacloud/components/layout/layout-context.tsx
 import React2, { useState, useContext } from "react";
 var LayoutContext = React2.createContext(void 0);
 var useLayout = () => {
@@ -1215,25 +1215,25 @@ var useLayout = () => {
   };
 };
 
-// components/layout/root-layout.tsx
+// ../../projects/lavozbaptist_tinacloud/components/layout/root-layout.tsx
 import { usePathname } from "next/navigation";
 import { useEffect as useEffect2, useId, useRef, useState as useState3 } from "react";
 import { motion as motion3, MotionConfig, useReducedMotion as useReducedMotion2 } from "framer-motion";
 
-// components/layout/container.tsx
+// ../../projects/lavozbaptist_tinacloud/components/layout/container.tsx
 import React3 from "react";
 import clsx from "clsx";
 
-// components/layout/root-layout.tsx
+// ../../projects/lavozbaptist_tinacloud/components/layout/root-layout.tsx
 import Link7 from "next/link";
 import { HiMenuAlt4 } from "react-icons/hi";
 import { IoMdClose } from "react-icons/io";
 
-// components/layout/nav/service-times.tsx
+// ../../projects/lavozbaptist_tinacloud/components/layout/nav/service-times.tsx
 import clsx2 from "clsx";
 import React4 from "react";
 
-// components/layout/nav/social-media.tsx
+// ../../projects/lavozbaptist_tinacloud/components/layout/nav/social-media.tsx
 import Link from "next/link";
 import clsx3 from "clsx";
 import {
@@ -1242,16 +1242,16 @@ import {
   BsInstagram
 } from "react-icons/bs";
 
-// components/layout/nav/footer.tsx
+// ../../projects/lavozbaptist_tinacloud/components/layout/nav/footer.tsx
 import React8 from "react";
 import Link4 from "next/link";
 
-// components/motion-primitives/fade-in.tsx
+// ../../projects/lavozbaptist_tinacloud/components/motion-primitives/fade-in.tsx
 import { createContext, useContext as useContext2 } from "react";
 import { motion, useReducedMotion } from "framer-motion";
 var FadeInStaggerContext = createContext(false);
 
-// components/ui/icon.tsx
+// ../../projects/lavozbaptist_tinacloud/components/ui/icon.tsx
 import * as BoxIcons from "react-icons/bi";
 import {
   FaFacebookF,
@@ -1380,7 +1380,7 @@ var TinaIcon = ({
   }
 };
 
-// components/motion-primitives/text-effect.tsx
+// ../../projects/lavozbaptist_tinacloud/components/motion-primitives/text-effect.tsx
 import {
   AnimatePresence,
   motion as motion2
@@ -1413,7 +1413,7 @@ var AnimationComponent = React6.memo(({ segment, variants, per, segmentWrapperCl
 });
 AnimationComponent.displayName = "AnimationComponent";
 
-// components/layout/nav/nav-section.tsx
+// ../../projects/lavozbaptist_tinacloud/components/layout/nav/nav-section.tsx
 import React7 from "react";
 var createNavigation = (latestMessageUrl) => [
   {
@@ -1452,42 +1452,42 @@ var createNavigation = (latestMessageUrl) => [
 ];
 var navigation = createNavigation();
 
-// components/layout/nav/footer-navigation.tsx
+// ../../projects/lavozbaptist_tinacloud/components/layout/nav/footer-navigation.tsx
 import Link2 from "next/link";
 import { useEffect, useState as useState2 } from "react";
 
-// components/ui/logo.tsx
+// ../../projects/lavozbaptist_tinacloud/components/ui/logo.tsx
 import clsx4 from "clsx";
 import Link3 from "next/link";
 import Image from "next/image";
 
-// components/layout/nav/header.tsx
+// ../../projects/lavozbaptist_tinacloud/components/layout/nav/header.tsx
 import Link6 from "next/link";
 
-// components/ui/second-button.tsx
+// ../../projects/lavozbaptist_tinacloud/components/ui/second-button.tsx
 import Link5 from "next/link";
 import clsx5 from "clsx";
 import React9 from "react";
 
-// components/layout/nav/header.tsx
+// ../../projects/lavozbaptist_tinacloud/components/layout/nav/header.tsx
 import clsx6 from "clsx";
 
-// components/facebook-sdk-loader.tsx
+// ../../projects/lavozbaptist_tinacloud/components/facebook-sdk-loader.tsx
 import { useEffect as useEffect3 } from "react";
 
-// app/messages/client-page.tsx
+// ../../projects/lavozbaptist_tinacloud/app/messages/client-page.tsx
 import * as React15 from "react";
 import Link8 from "next/link";
 import { format } from "date-fns";
 
-// components/ui/latest-messages-video-dialog.tsx
+// ../../projects/lavozbaptist_tinacloud/components/ui/latest-messages-video-dialog.tsx
 import { Play } from "lucide-react";
 
-// components/ui/video-dialog-context.tsx
+// ../../projects/lavozbaptist_tinacloud/components/ui/video-dialog-context.tsx
 import { createContext as createContext2, useContext as useContext3, useState as useState4 } from "react";
 var VideoDialogContext = createContext2(void 0);
 
-// components/ui/avatar.tsx
+// ../../projects/lavozbaptist_tinacloud/components/ui/avatar.tsx
 import * as React11 from "react";
 import * as AvatarPrimitive from "@radix-ui/react-avatar";
 function Avatar({
@@ -1536,14 +1536,14 @@ function AvatarFallback({
   );
 }
 
-// components/ui/latest-messages-video-dialog.tsx
+// ../../projects/lavozbaptist_tinacloud/components/ui/latest-messages-video-dialog.tsx
 import { UserRound } from "lucide-react";
 
-// components/ui/messages-video-dialog.tsx
+// ../../projects/lavozbaptist_tinacloud/components/ui/messages-video-dialog.tsx
 import { Play as Play2 } from "lucide-react";
 import { UserRound as UserRound2 } from "lucide-react";
 
-// components/error-boundary.tsx
+// ../../projects/lavozbaptist_tinacloud/components/error-boundary.tsx
 import React12 from "react";
 var ErrorBoundary = class extends React12.Component {
   constructor(props) {
@@ -1564,27 +1564,27 @@ var ErrorBoundary = class extends React12.Component {
   }
 };
 
-// app/messages/client-page.tsx
+// ../../projects/lavozbaptist_tinacloud/app/messages/client-page.tsx
 import { ArrowRight as ArrowRight3 } from "lucide-react";
 
-// components/ui/card.tsx
+// ../../projects/lavozbaptist_tinacloud/components/ui/card.tsx
 import * as React13 from "react";
 {
 }
 
-// components/layout/page-intro.tsx
+// ../../projects/lavozbaptist_tinacloud/components/layout/page-intro.tsx
 import React14 from "react";
 import clsx7 from "clsx";
 
-// app/messages/client-page.tsx
+// ../../projects/lavozbaptist_tinacloud/app/messages/client-page.tsx
 import { es } from "date-fns/locale";
 
-// lib/utils.ts
+// ../../projects/lavozbaptist_tinacloud/lib/utils.ts
 function cn(...inputs) {
   return twMerge(clsx8(inputs));
 }
 
-// components/layout/section.tsx
+// ../../projects/lavozbaptist_tinacloud/components/layout/section.tsx
 var tailwindBackgroundOptions = [
   { label: "Default", value: "bg-primary-background" },
   { label: "Peach", value: "bg-primary-background-peach" },
@@ -1630,7 +1630,7 @@ var sectionBlockSchemaField = {
   options: tailwindBackgroundOptions
 };
 
-// components/blocks/section-video.tsx
+// ../../projects/lavozbaptist_tinacloud/components/blocks/section-video.tsx
 var ReactPlayer = dynamic(() => import("react-player"), { ssr: false });
 var videoBlockSchema = {
   name: "video",
@@ -1671,7 +1671,7 @@ var videoBlockSchema = {
   ]
 };
 
-// tina/collection/message.tsx
+// ../../projects/lavozbaptist_tinacloud/tina/collection/message.tsx
 var Message = {
   label: "Mensajes Recientes",
   name: "message",
@@ -1874,10 +1874,10 @@ var Message = {
 };
 var message_default = Message;
 
-// tina/collection/event.tsx
+// ../../projects/lavozbaptist_tinacloud/tina/collection/event.tsx
 import React21 from "react";
 
-// tina/fields/icon.tsx
+// ../../projects/lavozbaptist_tinacloud/tina/fields/icon.tsx
 import React20 from "react";
 import { Button as Button2, wrapFieldsWithMeta as wrapFieldsWithMeta2 } from "tinacms";
 import { BiChevronRight } from "react-icons/bi";
@@ -1889,7 +1889,7 @@ import {
   PopoverPanel
 } from "@headlessui/react";
 
-// tina/fields/color.tsx
+// ../../projects/lavozbaptist_tinacloud/tina/fields/color.tsx
 import React19 from "react";
 import { wrapFieldsWithMeta } from "tinacms";
 var colorOptions = [
@@ -1929,7 +1929,7 @@ var ColorPickerInput = wrapFieldsWithMeta(({ input }) => {
   })));
 });
 
-// tina/fields/icon.tsx
+// ../../projects/lavozbaptist_tinacloud/tina/fields/icon.tsx
 var parseIconName = (name) => {
   const splitName = name.split(/(?=[A-Z])/);
   if (splitName.length > 1) {
@@ -2068,7 +2068,7 @@ var iconSchema = {
   ]
 };
 
-// tina/collection/event.tsx
+// ../../projects/lavozbaptist_tinacloud/tina/collection/event.tsx
 var Event = {
   label: "Eventos",
   name: "event",
@@ -2403,7 +2403,7 @@ var Event = {
 };
 var event_default = Event;
 
-// tina/collection/global.ts
+// ../../projects/lavozbaptist_tinacloud/tina/collection/global.ts
 var Global = {
   label: "Global",
   name: "global",
@@ -2550,7 +2550,7 @@ var Global = {
 };
 var global_default = Global;
 
-// tina/collection/coordinator.ts
+// ../../projects/lavozbaptist_tinacloud/tina/collection/coordinator.ts
 var Coordinator = {
   label: "Coordinators",
   name: "coordinator",
@@ -2575,7 +2575,7 @@ var Coordinator = {
 };
 var coordinator_default = Coordinator;
 
-// components/blocks/section-herocontent.tsx
+// ../../projects/lavozbaptist_tinacloud/components/blocks/section-herocontent.tsx
 import * as React22 from "react";
 import Image3 from "next/image";
 import { tinaField } from "tinacms/dist/react";
@@ -2628,11 +2628,11 @@ var herocontentBlockSchema = {
   ]
 };
 
-// components/blocks/section-cta-links.tsx
+// ../../projects/lavozbaptist_tinacloud/components/blocks/section-cta-links.tsx
 import Link9 from "next/link";
 import { tinaField as tinaField2 } from "tinacms/dist/react";
 
-// components/ui/button.tsx
+// ../../projects/lavozbaptist_tinacloud/components/ui/button.tsx
 import * as React23 from "react";
 import { Slot } from "@radix-ui/react-slot";
 import { cva } from "class-variance-authority";
@@ -2666,7 +2666,7 @@ var buttonVariants = cva(
   }
 );
 
-// components/blocks/section-cta-links.tsx
+// ../../projects/lavozbaptist_tinacloud/components/blocks/section-cta-links.tsx
 var defaultCtalink = {
   title: "Recursos comunitarios",
   icon: {
@@ -2748,7 +2748,7 @@ var ctalinkBlockSchema = {
   ]
 };
 
-// components/blocks/section-our-team.tsx
+// ../../projects/lavozbaptist_tinacloud/components/blocks/section-our-team.tsx
 import Link10 from "next/link";
 import Image4 from "next/image";
 import { tinaField as tinaField3 } from "tinacms/dist/react";
@@ -2861,17 +2861,17 @@ var teammemberBlockSchema = {
   ]
 };
 
-// components/blocks/section-profile.tsx
+// ../../projects/lavozbaptist_tinacloud/components/blocks/section-profile.tsx
 import React25 from "react";
 import Image5 from "next/image";
 import Link11 from "next/link";
 import { tinaField as tinaField4 } from "tinacms/dist/react";
 
-// components/motion-primitives/animated-group.tsx
+// ../../projects/lavozbaptist_tinacloud/components/motion-primitives/animated-group.tsx
 import { motion as motion4 } from "motion/react";
 import React24 from "react";
 
-// components/blocks/section-profile.tsx
+// ../../projects/lavozbaptist_tinacloud/components/blocks/section-profile.tsx
 var profileBlockSchema = {
   name: "profile",
   label: "Profile",
@@ -2972,7 +2972,7 @@ var profileBlockSchema = {
   ]
 };
 
-// components/blocks/landing-hero.tsx
+// ../../projects/lavozbaptist_tinacloud/components/blocks/landing-hero.tsx
 import * as React26 from "react";
 import Image6 from "next/image";
 import Link12 from "next/link";
@@ -3061,7 +3061,7 @@ var heroBlockSchema = {
   ]
 };
 
-// components/blocks/section-herodonation.tsx
+// ../../projects/lavozbaptist_tinacloud/components/blocks/section-herodonation.tsx
 import * as React27 from "react";
 import Image7 from "next/image";
 import { tinaField as tinaField6 } from "tinacms/dist/react";
@@ -3114,7 +3114,7 @@ var herodonationBlockSchema = {
   ]
 };
 
-// components/blocks/section-about.tsx
+// ../../projects/lavozbaptist_tinacloud/components/blocks/section-about.tsx
 import * as React28 from "react";
 import Image8 from "next/image";
 import Link13 from "next/link";
@@ -3222,7 +3222,7 @@ var aboutsectioninfoBlockSchema = {
   ]
 };
 
-// components/blocks/landing-about-us.tsx
+// ../../projects/lavozbaptist_tinacloud/components/blocks/landing-about-us.tsx
 import * as React29 from "react";
 import Image9 from "next/image";
 import Link14 from "next/link";
@@ -3317,19 +3317,19 @@ var aboutusBlockSchema = {
   ]
 };
 
-// components/blocks/section-content.tsx
+// ../../projects/lavozbaptist_tinacloud/components/blocks/section-content.tsx
 import React30 from "react";
 import { TinaMarkdown } from "tinacms/dist/rich-text";
 import { tinaField as tinaField9 } from "tinacms/dist/react";
 
-// components/blocks/mermaid.tsx
+// ../../projects/lavozbaptist_tinacloud/components/blocks/mermaid.tsx
 import dynamic2 from "next/dynamic";
 var MermaidElement2 = dynamic2(() => Promise.resolve().then(() => (init_mermaid_renderer(), mermaid_renderer_exports)), {
   ssr: false,
   loading: () => React.createElement("div", null, "Loading diagram...")
 });
 
-// components/magicui/script-copy-btn.tsx
+// ../../projects/lavozbaptist_tinacloud/components/magicui/script-copy-btn.tsx
 import { Check, Copy } from "lucide-react";
 import { motion as motion5 } from "motion/react";
 import { useTheme } from "next-themes";
@@ -3376,7 +3376,7 @@ var scriptCopyBlockSchema = {
   ]
 };
 
-// components/blocks/section-content.tsx
+// ../../projects/lavozbaptist_tinacloud/components/blocks/section-content.tsx
 var contentBlockSchema = {
   name: "content",
   label: "Content",
@@ -3399,7 +3399,7 @@ var contentBlockSchema = {
   ]
 };
 
-// components/blocks/section-call-to-action.tsx
+// ../../projects/lavozbaptist_tinacloud/components/blocks/section-call-to-action.tsx
 import Link15 from "next/link";
 import Image10 from "next/image";
 import { tinaField as tinaField10 } from "tinacms/dist/react";
@@ -3501,7 +3501,7 @@ var ctaBlockSchema = {
   ]
 };
 
-// components/blocks/landing-connect.tsx
+// ../../projects/lavozbaptist_tinacloud/components/blocks/landing-connect.tsx
 import { tinaField as tinaField11 } from "tinacms/dist/react";
 import { TinaMarkdown as TinaMarkdown2 } from "tinacms/dist/rich-text";
 import Link16 from "next/link";
@@ -3615,7 +3615,7 @@ var connectionBlockSchema = {
   ]
 };
 
-// components/blocks/section-features.tsx
+// ../../projects/lavozbaptist_tinacloud/components/blocks/section-features.tsx
 import { tinaField as tinaField12 } from "tinacms/dist/react";
 import { TinaMarkdown as TinaMarkdown3 } from "tinacms/dist/rich-text";
 var defaultFeature = {
@@ -3677,7 +3677,7 @@ var featureBlockSchema = {
   ]
 };
 
-// components/blocks/section-leadership.tsx
+// ../../projects/lavozbaptist_tinacloud/components/blocks/section-leadership.tsx
 import React31 from "react";
 import Image12 from "next/image";
 import Link17 from "next/link";
@@ -3782,18 +3782,18 @@ var leadershipBlockSchema = {
   ]
 };
 
-// components/blocks/section-vision.tsx
+// ../../projects/lavozbaptist_tinacloud/components/blocks/section-vision.tsx
 import React33 from "react";
 import { tinaField as tinaField14 } from "tinacms/dist/react";
 
-// components/ui/grid-list.tsx
+// ../../projects/lavozbaptist_tinacloud/components/ui/grid-list.tsx
 import clsx10 from "clsx";
 
-// components/ui/border.tsx
+// ../../projects/lavozbaptist_tinacloud/components/ui/border.tsx
 import clsx9 from "clsx";
 import React32 from "react";
 
-// components/blocks/section-vision.tsx
+// ../../projects/lavozbaptist_tinacloud/components/blocks/section-vision.tsx
 var visionBlockSchema = {
   name: "vision",
   label: "Vision",
@@ -3821,7 +3821,7 @@ var visionBlockSchema = {
   ]
 };
 
-// components/blocks/landing-groups.tsx
+// ../../projects/lavozbaptist_tinacloud/components/blocks/landing-groups.tsx
 import { tinaField as tinaField15 } from "tinacms/dist/react";
 import Link18 from "next/link";
 import Image13 from "next/image";
@@ -3934,7 +3934,7 @@ var groupinfoBlockSchema = {
   ]
 };
 
-// components/blocks/landing-callout.tsx
+// ../../projects/lavozbaptist_tinacloud/components/blocks/landing-callout.tsx
 import React34 from "react";
 import Link19 from "next/link";
 import { tinaField as tinaField16 } from "tinacms/dist/react";
@@ -3964,21 +3964,21 @@ var calloutBlockSchema = {
   ]
 };
 
-// components/blocks/landing-faqcontent.tsx
+// ../../projects/lavozbaptist_tinacloud/components/blocks/landing-faqcontent.tsx
 import React37, { useState as useState6 } from "react";
 import { TinaMarkdown as TinaMarkdown4 } from "tinacms/dist/rich-text";
 import { tinaField as tinaField17 } from "tinacms/dist/react";
 
-// components/ui/accordion-item.tsx
+// ../../projects/lavozbaptist_tinacloud/components/ui/accordion-item.tsx
 import React35 from "react";
 
-// components/blocks/landing-faqcontent.tsx
+// ../../projects/lavozbaptist_tinacloud/components/blocks/landing-faqcontent.tsx
 import Image14 from "next/image";
 
-// components/ui/decorative-icon.tsx
+// ../../projects/lavozbaptist_tinacloud/components/ui/decorative-icon.tsx
 import React36 from "react";
 
-// components/blocks/landing-faqcontent.tsx
+// ../../projects/lavozbaptist_tinacloud/components/blocks/landing-faqcontent.tsx
 var defaultQuestion = {
   title: "Here's Another Question",
   text: "This is where you might talk about the question, if this wasn't just filler text.",
@@ -4075,7 +4075,7 @@ var freqaskedquestionsBlockSchema = {
   ]
 };
 
-// components/blocks/section-imgcontent.tsx
+// ../../projects/lavozbaptist_tinacloud/components/blocks/section-imgcontent.tsx
 import Link20 from "next/link";
 import Image15 from "next/image";
 import { tinaField as tinaField18 } from "tinacms/dist/react";
@@ -4241,7 +4241,7 @@ var contentandimageBlockSchema = {
   ]
 };
 
-// components/blocks/section-imgcontent2.tsx
+// ../../projects/lavozbaptist_tinacloud/components/blocks/section-imgcontent2.tsx
 import Image16 from "next/image";
 import { tinaField as tinaField19 } from "tinacms/dist/react";
 import { ArrowRight as ArrowRight6 } from "lucide-react";
@@ -4407,7 +4407,7 @@ var contentandimagevariantBlockSchema = {
   ]
 };
 
-// components/blocks/landing-latest-events.tsx
+// ../../projects/lavozbaptist_tinacloud/components/blocks/landing-latest-events.tsx
 import React38 from "react";
 import Link21 from "next/link";
 import Image17 from "next/image";
@@ -4485,7 +4485,7 @@ var latesteventsBlockSchema = {
   ]
 };
 
-// components/blocks/landing-latest-messages.tsx
+// ../../projects/lavozbaptist_tinacloud/components/blocks/landing-latest-messages.tsx
 import React39 from "react";
 import { tinaField as tinaField21 } from "tinacms/dist/react";
 import { ArrowRight as ArrowRight8 } from "lucide-react";
@@ -4562,7 +4562,7 @@ var latestmessagesBlockSchema = {
   ]
 };
 
-// components/blocks/section-groups.tsx
+// ../../projects/lavozbaptist_tinacloud/components/blocks/section-groups.tsx
 import Link23 from "next/link";
 import Image18 from "next/image";
 import { tinaField as tinaField22 } from "tinacms/dist/react";
@@ -4749,7 +4749,7 @@ var groupBlockSchema = {
   ]
 };
 
-// components/blocks/section-values.tsx
+// ../../projects/lavozbaptist_tinacloud/components/blocks/section-values.tsx
 import React40 from "react";
 import { tinaField as tinaField23 } from "tinacms/dist/react";
 var valuesBlockSchema = {
@@ -4791,25 +4791,25 @@ var valuesBlockSchema = {
   ]
 };
 
-// components/blocks/section-listcontent.tsx
+// ../../projects/lavozbaptist_tinacloud/components/blocks/section-listcontent.tsx
 import React42 from "react";
 
-// components/ui/stylized-image.tsx
+// ../../projects/lavozbaptist_tinacloud/components/ui/stylized-image.tsx
 import clsx11 from "clsx";
 import Image19 from "next/image";
 import { useId as useId2 } from "react";
 
-// components/blocks/section-listcontent.tsx
+// ../../projects/lavozbaptist_tinacloud/components/blocks/section-listcontent.tsx
 import { tinaField as tinaField24 } from "tinacms/dist/react";
 
-// components/ui/tag-list.tsx
+// ../../projects/lavozbaptist_tinacloud/components/ui/tag-list.tsx
 import clsx12 from "clsx";
 
-// components/ui/list.tsx
+// ../../projects/lavozbaptist_tinacloud/components/ui/list.tsx
 import React41 from "react";
 import clsx13 from "clsx";
 
-// components/blocks/section-listcontent.tsx
+// ../../projects/lavozbaptist_tinacloud/components/blocks/section-listcontent.tsx
 var listcontentBlockSchema = {
   name: "listcontent",
   label: "Listcontent",
@@ -4846,11 +4846,11 @@ var listcontentBlockSchema = {
   ]
 };
 
-// components/blocks/section-first-steps.tsx
+// ../../projects/lavozbaptist_tinacloud/components/blocks/section-first-steps.tsx
 import React46 from "react";
 import { tinaField as tinaField25 } from "tinacms/dist/react";
 
-// components/mdx-components.tsx
+// ../../projects/lavozbaptist_tinacloud/components/mdx-components.tsx
 import { format as format4 } from "date-fns";
 import React45 from "react";
 import {
@@ -4859,43 +4859,43 @@ import {
 import Image20 from "next/image";
 import { Prism } from "tinacms/dist/rich-text/prism";
 
-// components/forms/contact-details.tsx
+// ../../projects/lavozbaptist_tinacloud/components/forms/contact-details.tsx
 import Link24 from "next/link";
 
-// components/forms/serve-details.tsx
+// ../../projects/lavozbaptist_tinacloud/components/forms/serve-details.tsx
 import Link25 from "next/link";
 
-// components/forms/resources-details.tsx
+// ../../projects/lavozbaptist_tinacloud/components/forms/resources-details.tsx
 import Link26 from "next/link";
 
-// components/forms/visitor-details.tsx
+// ../../projects/lavozbaptist_tinacloud/components/forms/visitor-details.tsx
 import Link27 from "next/link";
 
-// components/forms/contact-form.tsx
+// ../../projects/lavozbaptist_tinacloud/components/forms/contact-form.tsx
 import { useForm } from "react-hook-form";
 
-// components/forms/text-input.tsx
+// ../../projects/lavozbaptist_tinacloud/components/forms/text-input.tsx
 import React43, { useId as useId3 } from "react";
 
-// components/layout/wrapper.tsx
+// ../../projects/lavozbaptist_tinacloud/components/layout/wrapper.tsx
 import React44 from "react";
 
-// components/forms/contact-form.tsx
+// ../../projects/lavozbaptist_tinacloud/components/forms/contact-form.tsx
 import { useState as useState7 } from "react";
 
-// components/forms/resources-form.tsx
+// ../../projects/lavozbaptist_tinacloud/components/forms/resources-form.tsx
 import { useForm as useForm2 } from "react-hook-form";
 import { useState as useState8 } from "react";
 
-// components/forms/serve-form.tsx
+// ../../projects/lavozbaptist_tinacloud/components/forms/serve-form.tsx
 import { useForm as useForm3 } from "react-hook-form";
 import { useState as useState9 } from "react";
 
-// components/forms/visitor-form.tsx
+// ../../projects/lavozbaptist_tinacloud/components/forms/visitor-form.tsx
 import { useForm as useForm4 } from "react-hook-form";
 import { useState as useState10 } from "react";
 
-// components/blocks/section-first-steps.tsx
+// ../../projects/lavozbaptist_tinacloud/components/blocks/section-first-steps.tsx
 var nextstepsBlockSchema = {
   name: "nextsteps",
   label: "Nextsteps",
@@ -4962,7 +4962,7 @@ var nextstepsBlockSchema = {
   ]
 };
 
-// components/blocks/section-contact.tsx
+// ../../projects/lavozbaptist_tinacloud/components/blocks/section-contact.tsx
 import Link28 from "next/link";
 import { tinaField as tinaField26 } from "tinacms/dist/react";
 var contactsectionBlockSchema = {
@@ -5031,7 +5031,7 @@ var contactsectionBlockSchema = {
   ]
 };
 
-// tina/collection/page.ts
+// ../../projects/lavozbaptist_tinacloud/tina/collection/page.ts
 var Page = {
   label: "Pages",
   name: "page",
@@ -5270,7 +5270,7 @@ var Page = {
 };
 var page_default = Page;
 
-// tina/collection/tag.ts
+// ../../projects/lavozbaptist_tinacloud/tina/collection/tag.ts
 var Tag = {
   label: "Tags",
   name: "tag",
@@ -5288,7 +5288,7 @@ var Tag = {
 };
 var tag_default = Tag;
 
-// tina/config.tsx
+// ../../projects/lavozbaptist_tinacloud/tina/config.tsx
 var branch = process.env.NEXT_PUBLIC_TINA_BRANCH || process.env.NEXT_PUBLIC_VERCEL_GIT_COMMIT_REF || "";
 var config_default = defineConfig({
   branch,

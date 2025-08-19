@@ -108,8 +108,8 @@ const Event: Collection = {
       ui: {
         defaultItem: {
           recurring: false,
-          date: new Date().toISOString(),
-          enddate: new Date().toISOString(),
+          date: "2024-01-01T00:00:00.000Z",
+          enddate: "2024-01-01T00:00:00.000Z",
           label: "Date Label",
           type: "button",
           icon: {
