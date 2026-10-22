@@ -1195,7 +1195,7 @@ var queries = (client2) => {
 };
 
 // tina/__generated__/client.ts
-var client = createClient2({ cacheDir: "/Users/elikent/Projects/lavozbaptist_tinacloud/tina/__generated__/.cache/1755582591958", url: "https://content.tinajs.io/1.6/content/21b05b50-9e8a-4cb2-82a6-d37429d5375e/github/tinaCloud_live", token: "2eae713c34cfda47054f398afb54197e1834e9d3", queries });
+var client = createClient2({ url: "http://localhost:4001/graphql", token: "2eae713c34cfda47054f398afb54197e1834e9d3", queries });
 
 // components/layout/layout.tsx
 import React10 from "react";
@@ -2172,10 +2172,10 @@ var Event = {
       type: "object",
       list: true,
       ui: {
-        defaultItem: {
+        defaultItem: () => ({
           recurring: false,
-          date: "2024-01-01T00:00:00.000Z",
-          enddate: "2024-01-01T00:00:00.000Z",
+          recstartdate: (/* @__PURE__ */ new Date()).toISOString(),
+          recenddate: (/* @__PURE__ */ new Date()).toISOString(),
           label: "Date Label",
           type: "button",
           icon: {
@@ -2183,7 +2183,7 @@ var Event = {
             color: ""
           },
           link: "/"
-        },
+        }),
         itemProps: (item) => ({ label: item.label })
       },
       fields: [

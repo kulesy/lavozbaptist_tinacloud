@@ -106,10 +106,10 @@ const Event: Collection = {
       type: "object",
       list: true,
       ui: {
-        defaultItem: {
+        defaultItem: () => ({
           recurring: false,
-          date: "2024-01-01T00:00:00.000Z",
-          enddate: "2024-01-01T00:00:00.000Z",
+          recstartdate: new Date().toISOString(),
+          recenddate: new Date().toISOString(),
           label: "Date Label",
           type: "button",
           icon: {
@@ -117,7 +117,7 @@ const Event: Collection = {
             color: "",
           },
           link: "/",
-        },
+        }),
         itemProps: (item) => ({ label: item.label }),
       },
       fields: [
